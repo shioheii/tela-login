@@ -1,0 +1,155 @@
+html,
+body {
+  min-height: 90vh;
+  display: flex;
+  flex: 1;
+}
+
+body {
+  background: url(../assets/background.png) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 550px;
+  background: #212931;
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer {
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  width: 100%;
+  max-width: 500px;
+  margin: 25px auto 14px auto;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 50;
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto 0 0;
+  color: #9aa5b1;
+}
+
+.containerRequests {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.request {
+  font-size: 18px;
+  font-weight: 400;
+  width: 90%;
+  max-width: 400px;
+  margin: 16px 0 5px 0;
+  color: #cbd2d9;
+  text-align: left;
+}
+
+input {
+  background-color: #313d49;
+  border: 2px solid #101418;
+  border-radius: 5px;
+  color: #cbd2d9;
+  padding-left: 5px;
+  width: 90%;
+  max-width: 400px;
+  height: 25px;
+}
+input:hover {
+  border-color: #ffffff;
+}
+
+/* As três declarações de baixo são pra estilizar os inputs
+dos campos "sexo" e "data de nascimento" */
+.caixa {
+  display: inline;
+  width: 90%;
+  max-width: 400px;
+  margin: 16px auto 0;
+}
+.caixa .request {
+  width: fit-content;
+  margin: 20px 0 5px 0;
+}
+.caixa input {
+  width: auto;
+  height: auto;
+}
+
+select {
+  background-color: #313d49;
+  border: 2px solid #101418;
+  border-radius: 5px;
+  color: #cbd2d9;
+  padding-left: 3px;
+  width: 120px;
+}
+
+.cadastreCom {
+  margin: 0 auto 10px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.containerFormasCadastro {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.criarConta {
+  width: 40px;
+  height: 40px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+button {
+  margin: 0 0 16px;
+  padding: 5px 50px;
+  background-color: #3f9142;
+  border-radius: 3px;
+  border-color: #3f9142;
+}
+
+.login {
+  margin-bottom: 25px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}

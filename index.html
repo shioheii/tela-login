@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bruno Shiohei" />
+    <meta
+      name="description"
+      content="O projeto se consistia no desenvolvimento de uma tela de login e cadastro."
+    />
+
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Login</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="titleContainer">
+        <h1 class="title">Login</h1>
+        <p class="subtitle">Prencha os campos para realizar login</p>
+      </div>
+
+      <hr color="black" width="90%" />
+
+      <form class="containerResquests">
+        <label for="emailInput" class="request">Digite seu e-mail:</label>
+        <input
+          class="emailInput"
+          id="emailInput"
+          type="email"
+          placeholder="Email"
+          required
+        />
+
+        <label for="passwordInput" class="request">Digite sua senha:</label>
+        <input
+          class="passwordInput"
+          id="passwordInput"
+          type="password"
+          placeholder="Senha"
+          required
+        />
+      </form>
+
+      <div class="containerFormasLogin">
+        <a href="#" class="criarConta">
+          <img src="src/assets/facebook-icon.png" alt="Facebook" />
+          <figcaption hidden>Ícone do Facebook</figcaption>
+        </a>
+        <a href="#" class="criarConta">
+          <img src="src/assets/google-icon.png" alt="Google" />
+          <figcaption hidden>Ícone do Google</figcaption>
+        </a>
+        <a href="#" class="criarConta">
+          <img src="src/assets/github-icon.png" alt="Github" />
+          <figcaption hidden>Ícone do Github</figcaption>
+        </a>
+      </div>
+      <button type="submit">Entrar</button>
+
+      <hr color="black" width="90%" />
+
+      <p class="sign">
+        Ainda não tem uma conta?
+        <a href="./src/pages/sign-up.html"><strong>Sign up</strong></a>
+      </p>
+    </main>
+  </body>
+</html>

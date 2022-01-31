@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Bruno Shiohei" />
+
+    <link rel="stylesheet" href="../css/sign-up-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sign up</title>
+  </head>
+  <body>
+    <main class="container">
+      <!--
+        Cadastro: 
+
+        - Nome completo
+        - Data de nascimento
+        - Sexo
+        - Email
+        - Senha
+        - Confirmar senha
+       -->
+
+      <div class="titleContainer">
+        <h1 class="title">Sign up</h1>
+        <p class="subtitle">Preencha os campos para realizar seu cadastro</p>
+      </div>
+
+      <hr color="black" width="90%" />
+
+      <form class="containerRequests">
+        <label for="nameInput" class="request">Nome completo:</label>
+        <input
+          id="nameInput"
+          class="nameInput"
+          type="text"
+          placeholder="Nome"
+          required
+        />
+
+        <!--<div class="caixa">-->
+        <label class="caixa">
+          <strong class="request">Data de nascimento: </strong>
+          <input class="dateInput" type="date" required />
+        </label>
+        <label class="caixa">
+          <strong class="request sexo">Sexo: </strong>
+          <select class="sexInput" name="sexo" id="sexo" required>
+            <option value="1">Masculino</option>
+            <option value="2">Feminino</option>
+          </select>
+        </label>
+        <!--</div>-->
+
+        <label for="emailInput" class="request">Email:</label>
+        <input
+          id="emailInput"
+          class="emailInput"
+          type="email"
+          placeholder="Email"
+          required
+        />
+
+        <label for="passwordInput" class="request">Crie uma senha:</label>
+        <input
+          id="passwordInput"
+          class="passwordInput"
+          type="password"
+          placeholder="Senha"
+          required
+        />
+
+        <label for="confirmPasswordInput" class="request"
+          >Confirme sua senha:</label
+        >
+        <input
+          id="confirmPasswordInput"
+          class="passwordInput"
+          type="password"
+          placeholder="Confirmar senha"
+          required
+        />
+      </form>
+
+      <p class="cadastreCom">Ou crie uma conta usando:</p>
+      <div class="containerFormasCadastro">
+        <a href="#" class="criarConta">
+          <img src="../assets/facebook-icon.png" alt="Facebook" />
+          <figcaption hidden>Ícone do Facebook</figcaption>
+        </a>
+        <a href="#" class="criarConta">
+          <img src="../assets/google-icon.png" alt="Google" />
+          <figcaption hidden>Ícone do Google</figcaption>
+        </a>
+        <a href="#" class="criarConta">
+          <img src="../assets/github-icon.png" alt="Github" />
+          <figcaption hidden>Ícone do Github</figcaption>
+        </a>
+      </div>
+      <button type="submit">Cadastrar</button>
+
+      <hr color="black" width="90%" />
+
+      <p class="login">
+        Já tem uma conta?
+        <a href="../../index.html"><strong>Login</strong></a>
+      </p>
+    </main>
+  </body>
+</html>
