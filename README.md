@@ -45,7 +45,7 @@ Para executar este projeto no seu computador, basta clicar em "Code" e depois em
 Ou clone o repositório pelo link:
 
 ```bash
-$ git
+$ git https://github.com/shioheii/tela-login.git
 ```
 
 Então abra a página "index.html" no navegador.
