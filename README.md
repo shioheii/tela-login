@@ -16,7 +16,7 @@
   <img alt="Linguagens" src="https://img.shields.io/github/languages/code-size/shioheii/tela-login?color=DB3833">
 </a><br />
 
-Eu desenvolvi este projeto para praticar conceitos de HTML e CSS, buscando aplicar os conceitos de semântica, box-model. Busquei trabalhar também com responsividade, que é um conteúdo que ainda preciso estudar.
+Eu desenvolvi este projeto para praticar conceitos de HTML e CSS, buscando aplicar os conceitos de semântica, box-model e flex-box. Busquei trabalhar também com responsividade, que é um conteúdo que ainda preciso estudar.
 
 ## Sobre o projeto:
 
@@ -26,6 +26,7 @@ Minha idéia foi criar uma tela de login de usuário, com navegação para uma t
 
 - Semântica e box-model no HTML
 - Estruturação de código no CSS
+- Utilizei a propriedade flex-box (ainda preciso me aprofundar nisso)
 - Trabalhei responsividade (basicamente com as propriedades width e max-width)
 
 ## Linguagens utilizadas:
@@ -38,6 +39,7 @@ Minha idéia foi criar uma tela de login de usuário, com navegação para uma t
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Projeto funcional
+
 - Github Pages: [link](https://shioheii.github.io/tela-login/)
 
 ## Executar projeto na sua máquina:
