@@ -1,20 +1,20 @@
 # Projeto tela-login
 
-<!--<a href="https://github.com/shioheii">
+<a href="https://github.com/shioheii">
   <img alt="Linguagens" src="https://img.shields.io/badge/autor-Bruno%20Shiohei%20Kinoshita%20do%20Nascimento-DB3833">
 </a>
 <a href="#">
-  <img alt="Linguagens" src="https://img.shields.io/github/stars/shioheii/Shioheify?color=DB3833">
+  <img alt="Linguagens" src="https://img.shields.io/github/stars/shioheii/tela-login?color=DB3833">
 </a>
 <a href="#">
-  <img alt="Linguagens" src="https://img.shields.io/github/last-commit/shioheii/Shioheify?color=DB3833">
+  <img alt="Linguagens" src="https://img.shields.io/github/last-commit/shioheii/tela-login?color=DB3833">
 </a>
 <a href="#">
-  <img alt="Linguagens" src="https://img.shields.io/github/languages/count/shioheii/Shioheify?color=DB3833">
+  <img alt="Linguagens" src="https://img.shields.io/github/languages/count/shioheii/tela-login?color=DB3833">
 </a>
 <a href="#">
-  <img alt="Linguagens" src="https://img.shields.io/github/languages/code-size/shioheii/Shioheify?color=DB3833">
-</a><br />-->
+  <img alt="Linguagens" src="https://img.shields.io/github/languages/code-size/shioheii/tela-login?color=DB3833">
+</a><br />
 
 Eu desenvolvi este projeto para praticar conceitos de HTML e CSS, buscando aplicar os conceitos de semântica, box-model. Busquei trabalhar também com responsividade, que é um conteúdo que ainda preciso estudar.
 
