@@ -87,7 +87,11 @@ input {
   height: 25px;
 }
 input:hover {
-  border-color: #ffffff;
+  border-color: #ffc632;
+}
+input:focus {
+  outline: none;
+  border-color: #ffc632;
 }
 
 .containerFormasLogin {
@@ -114,9 +118,9 @@ img {
 button {
   margin: 0 0 16px;
   padding: 5px 50px;
-  background-color: #3f9142;
+  background-color: #ffc632;
   border-radius: 3px;
-  border-color: #3f9142;
+  border-color: #ffc632;
 }
 
 .sign {

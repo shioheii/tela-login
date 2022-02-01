@@ -84,7 +84,11 @@ input {
   height: 25px;
 }
 input:hover {
-  border-color: #ffffff;
+  border-color: #ffc632;
+}
+input:focus {
+  outline: none;
+  border-color: #ffc632;
 }
 
 /* As três declarações de baixo são pra estilizar os inputs
@@ -111,6 +115,13 @@ select {
   color: #cbd2d9;
   padding-left: 3px;
   width: 120px;
+}
+select:hover {
+  border-color: #ffc632;
+}
+select:focus {
+  outline: none;
+  border-color: #ffc632;
 }
 
 .cadastreCom {
@@ -141,9 +152,9 @@ img {
 button {
   margin: 0 0 16px;
   padding: 5px 50px;
-  background-color: #3f9142;
+  background-color: #ffc632;
   border-radius: 3px;
-  border-color: #3f9142;
+  border-color: #ffc632;
 }
 
 .login {
