@@ -58,7 +58,6 @@ body {
 .containerRequests {
   width: 100%;
   max-width: 400px;
-  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +114,7 @@ select {
 }
 
 .cadastreCom {
-  margin: 0 auto 10px;
+  margin: 25px auto 10px;
   width: 90%;
   max-width: 400px;
   text-align: center;
